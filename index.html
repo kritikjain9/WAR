@@ -1,15 +1,19 @@
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <button class="get-deck">Get Deck</button>
-    <button class="get-cards" disabled>Get Cards</button>
-
-    <section class="card-holder">
-      <div id="cards"></div>
-    </section>
-
+    <button class="get-deck" id="new-deck">Get Deck</button>
+    <div id="cards">
+      <div class="card-slot"></div>
+      <div class="card-slot"></div>
+    </div>
+    <button class="get-cards" id="draw" disabled>Get Cards</button>
   </body>
   <script src="index.js"></script>
 </html>
